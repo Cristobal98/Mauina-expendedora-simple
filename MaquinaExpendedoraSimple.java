@@ -60,6 +60,13 @@ public class MaquinaExpendedoraSimple {
     public void introducirDinero(int cantidadIntroducida) {
         balanceClienteActual = balanceClienteActual + cantidadIntroducida;
     }
+    
+    /**
+     * Permite cambiar el precio del billete
+     */
+    public void cambiarBillete(int preciodeBillete) {
+        precioBillete = preciodeBillete;
+    }
 
     /**
      * Imprime un billete para el cliente actual
